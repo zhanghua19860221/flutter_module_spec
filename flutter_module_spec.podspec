@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'flutter_module_spec'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'A short description of flutter_module_spec.'
 
   s.homepage         = 'https://github.com/zhanghua19860221/flutter_module_spec'
