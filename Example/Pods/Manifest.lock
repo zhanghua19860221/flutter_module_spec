@@ -1,0 +1,16 @@
+PODS:
+  - flutter_module_spec (0.1.0)
+
+DEPENDENCIES:
+  - flutter_module_spec (from `../`)
+
+EXTERNAL SOURCES:
+  flutter_module_spec:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  flutter_module_spec: c1740217dcf4df6f7581495017fe44bfb9007bee
+
+PODFILE CHECKSUM: 6e658cb6d6817696037357e10aa0b764990ec992
+
+COCOAPODS: 1.11.3
