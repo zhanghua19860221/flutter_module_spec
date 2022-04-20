@@ -1,5 +1,5 @@
 PODS:
-  - flutter_module_spec (0.3.0)
+  - flutter_module_spec (0.4.0)
 
 DEPENDENCIES:
   - flutter_module_spec (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  flutter_module_spec: e23955261cd533ec047ed225936eb70f025f7294
+  flutter_module_spec: 617acead672aec3eff78985357e03b4498fb55e4
 
 PODFILE CHECKSUM: 6e658cb6d6817696037357e10aa0b764990ec992
 

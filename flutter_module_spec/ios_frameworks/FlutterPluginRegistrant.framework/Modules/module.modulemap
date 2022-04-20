@@ -1,5 +1,5 @@
 framework module FlutterPluginRegistrant {
-  umbrella header "FlutterPluginRegistrant.h"
+  umbrella header "FlutterPluginRegistrant-umbrella.h"
 
   export *
   module * { export * }
