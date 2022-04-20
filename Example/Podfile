@@ -1,0 +1,6 @@
+use_frameworks!
+target 'flutter_module_spec_Tests' do
+  pod 'flutter_module_spec', :path => '../'
+  
+  
+end
