@@ -1,8 +1,7 @@
 {
   "name": "flutter_module_spec",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "A short description of flutter_module_spec.",
-  "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/zhanghua19860221/flutter_module_spec",
   "license": {
     "type": "MIT",
@@ -13,15 +12,20 @@
   },
   "source": {
     "git": "https://github.com/zhanghua19860221/flutter_module_spec.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "static_framework": true,
   "ios": {
     "vendored_frameworks": [
-      "ios_frameworks/*.framework"
+      "flutter_module_spec/ios_frameworks/**/*.framework"
     ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   }
 }
