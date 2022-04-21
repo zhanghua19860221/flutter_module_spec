@@ -178,14 +178,12 @@ code_sign_if_enabled() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_ROOT}/../../flutter_module_spec/ios_frameworks/App.framework"
   install_framework "${PODS_ROOT}/../../flutter_module_spec/ios_frameworks/device_info_plus.framework"
-  install_framework "${PODS_ROOT}/../../flutter_module_spec/ios_frameworks/Flutter.framework"
   install_framework "${PODS_ROOT}/../../flutter_module_spec/ios_frameworks/flutter_boost.framework"
   install_framework "${PODS_ROOT}/../../flutter_module_spec/ios_frameworks/shared_preferences_ios.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/../../flutter_module_spec/ios_frameworks/App.framework"
   install_framework "${PODS_ROOT}/../../flutter_module_spec/ios_frameworks/device_info_plus.framework"
-  install_framework "${PODS_ROOT}/../../flutter_module_spec/ios_frameworks/Flutter.framework"
   install_framework "${PODS_ROOT}/../../flutter_module_spec/ios_frameworks/flutter_boost.framework"
   install_framework "${PODS_ROOT}/../../flutter_module_spec/ios_frameworks/shared_preferences_ios.framework"
 fi

@@ -216,7 +216,6 @@
 				"${PODS_ROOT}/Target Support Files/Pods-flutter_module_spec_Tests/Pods-flutter_module_spec_Tests-frameworks.sh",
 				"${PODS_ROOT}/../../flutter_module_spec/ios_frameworks/App.framework",
 				"${PODS_ROOT}/../../flutter_module_spec/ios_frameworks/device_info_plus.framework",
-				"${PODS_ROOT}/../../flutter_module_spec/ios_frameworks/Flutter.framework",
 				"${PODS_ROOT}/../../flutter_module_spec/ios_frameworks/flutter_boost.framework",
 				"${PODS_ROOT}/../../flutter_module_spec/ios_frameworks/shared_preferences_ios.framework",
 			);
@@ -224,7 +223,6 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/device_info_plus.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_boost.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/shared_preferences_ios.framework",
 			);
